@@ -44,11 +44,11 @@
     margin: 10px 0px;
 }
 
-.food-item-image-container{
+.food-item-img-container{
     position: relative;
 }
 
-.food-item-image-container .add{
+.food-item-img-container .add{
     width: 35px;
     position: absolute;
     bottom: 15px;
@@ -57,14 +57,18 @@
     border-radius: 50%;
 }
 
-food-item-counter{
+.food-item-counter{
     position: absolute;
     bottom: 15px;
     right: 15px;
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 6px;
+    padding: 1.5px;
     border-radius: 50px;
-    background-color: #ff0000;
+    background-color: #ffffff;
 }
+
+/*.food-item-counter img{*/
+/*    width: 30px;*/
+/*}*/
