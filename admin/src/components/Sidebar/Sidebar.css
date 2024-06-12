@@ -21,6 +21,11 @@
     cursor: pointer;
 }
 
+.sidebar-options.active{
+    background-color: whitesmoke;
+    border-color: orangered;
+}
+
 @media (max-width: 900px) {
     .sidebar-options p{
         display: none;
