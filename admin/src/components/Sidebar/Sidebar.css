@@ -1,5 +1,9 @@
 .sidebar{
-
+    width: 18%;
+    min-height: 100vh;
+    border: 1.5px solid gray;
+    border-top: 0;
+    font-size: max(1vw, 10px);
 }
 
 .sidebar-options{
@@ -10,7 +14,7 @@
     gap: 20px;
 }
 
-.sidebar-options{
+.sidebar-option{
     display: flex;
     align-items: center;
     gap: 12px;
@@ -21,8 +25,8 @@
     cursor: pointer;
 }
 
-.sidebar-options.active{
-    background-color: whitesmoke;
+.sidebar-option.active{
+    background-color: #d2d2d2;
     border-color: orangered;
 }
 
